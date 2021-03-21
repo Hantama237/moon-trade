@@ -1,5 +1,5 @@
 {
-  "name": "rest-api-typeorm",
+  "name": "server",
   "version": "1.0.0",
   "scripts": {
     "debug": "ts-node-dev --inspect -- src/index",

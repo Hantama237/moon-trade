@@ -8,9 +8,11 @@
     "dependencies": {
         "concurrently": "^6.0.0"
     },
+    "nohoist":["jest"
+    ],
     "scripts": {
-        "frontend": "yarn workspace frontend start",
-        "backend": "yarn workspace backend debug",
-        "start": "concurrently --kill-others-on-fail \"yarn server\"  \"yarn frontend\""
+        "client": "yarn workspace client start",
+        "server": "yarn workspace server debug",
+        "start": "concurrently --kill-others-on-fail \"yarn server\"  \"yarn client\""
     }
 }
