@@ -1,0 +1,16 @@
+{
+    "private": true,
+    "name": "moon-trade",
+    "workspaces": [
+        "packages/*"
+    ],
+    
+    "dependencies": {
+        "concurrently": "^6.0.0"
+    },
+    "scripts": {
+        "frontend": "yarn workspace frontend start",
+        "backend": "yarn workspace backend debug",
+        "start": "concurrently --kill-others-on-fail \"yarn server\"  \"yarn frontend\""
+    }
+}
