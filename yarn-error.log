@@ -1,0 +1,31 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js create react-app packages/frontend
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\PostgreSQL\pg11\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_211\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PHP;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\ProgramData\ComposerSetup\bin;C:\Users\DESKTOP-23DSS\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\DESKTOP-23DSS\AppData\Local\Programs\Python\Python37\;C:\Users\DESKTOP-23DSS\AppData\Local\Microsoft\WindowsApps;C:\Users\DESKTOP-23DSS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DESKTOP-23DSS\AppData\Roaming\npm;C:\Users\DESKTOP-23DSS\AppData\Local\Yarn\bin;C:\Program Files\heroku\bin;C:\Users\DESKTOP-23DSS\AppData\Local\GitHubDesktop\bin;C:\Users\DESKTOP-23DSS\AppData\Local\Microsoft\WindowsApps;F:\0_Flutter\flutter\bin;C:\Program Files\PHP;C:\PHP;C:\Users\DESKTOP-23DSS\AppData\Roaming\Composer\vendor\bin;
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\xampp\htdocs\Github\moon-trade\package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:304:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:315:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
